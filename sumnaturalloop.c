@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-  int a,i,sum=0;
+  int x,j,add=0;
   printf("Enter the positive number\n");
-  scanf("%d",&a);
-  for(i=1;i<=a;i++)
+  scanf("%d",&x);
+  for(j=1;j<=x;j++)
   {
-  sum=sum+i;
+  add=add+j;
   }
-  printf("The sum is %d",sum);
+  printf("The sum is %d",add);
   return 0;
  }
